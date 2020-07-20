@@ -1,5 +1,5 @@
 # Code
-### This repository contains some of the modules that i created that are useul in using for real world data
+### This repository contains some of the modules that i created that are useful in using for real world data
 
 ## [My_encoder](/my_encoder)
 My encoder is a module that can be used to one hot encode given vairiables of the dataset. It covers both the disadvanteges that are occured while usign OneHotEncoder and 
