@@ -5,3 +5,9 @@
 My encoder is a module that can be used to one hot encode given vairiables of the dataset. It covers both the disadvanteges that are occured while usign OneHotEncoder and 
 pd.get_dummies method. 
 The notebook attached shows in detail what disadvanates are observed. And also that using my_encoder, we can get the job done is very less lines of code.
+
+
+## [Scipy.optimize.curve_fit](//Scipy.optimize.curve_fit)
+This notebook explains the curve_fit, from scipy.optimize, and provides exmaples on how it can be used to fit different functions of the data. 
+In this notebook i have used a stimmulated  data to show how we can plot and potimize different functions easitly using scipy.
+[scipy.optimize.curve_fit()](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html)
