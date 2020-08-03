@@ -6,6 +6,11 @@ My encoder is a module that can be used to one hot encode given vairiables of th
 pd.get_dummies method. 
 The notebook attached shows in detail what disadvanates are observed. And also that using my_encoder, we can get the job done is very less lines of code.
 
+## [Confidence Intervals for Linear models](Confidence_interval_for_simple_models/confidence_interval_simple_models.ipynb)
+This contains the notebook to find and visualize the confidence intervals in linear models. 
+![](Confidence_interval_for_simple_models/ci.PNG)
+![](Confidence_interval_for_simple_models/formula.jpg)
+
 
 ## [Scipy.optimize.curve_fit](/Scipy.optimize.curve_fit/Curve_fit_from_scipy_optimize.ipynb)
 This notebook explains the curve_fit, from scipy.optimize, and provides exmaples on how it can be used to fit different functions of the data. 
