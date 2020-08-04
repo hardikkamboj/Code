@@ -8,8 +8,7 @@ The notebook attached shows in detail what disadvanates are observed. And also t
 
 ## [Confidence Intervals for Linear models](Confidence_interval_for_simple_models/confidence_interval_simple_models.ipynb)
 This contains the notebook to find and visualize the confidence intervals in linear models. 
-![](Confidence_interval_for_simple_models/ci.PNG)
-![](Confidence_interval_for_simple_models/formula.jpg)
+
 
 
 ## [Scipy.optimize.curve_fit](/Scipy.optimize.curve_fit/Curve_fit_from_scipy_optimize.ipynb)
@@ -17,8 +16,5 @@ This notebook explains the curve_fit, from scipy.optimize, and provides exmaples
 In this notebook i have used a stimmulated  data to show how we can plot and potimize different functions easitly using scipy.
 [scipy.optimize.curve_fit()](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html)
 
-### Examples from the notebook
-![](Scipy.optimize.curve_fit/linear.PNG)
-![](Scipy.optimize.curve_fit/quad.PNG)
-![](Scipy.optimize.curve_fit/log.PNG)
+
 
