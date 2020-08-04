@@ -9,7 +9,8 @@ The notebook attached shows in detail what disadvanates are observed. And also t
 ## [Confidence Intervals for Linear models](Confidence_interval_for_simple_models/confidence_interval_simple_models.ipynb)
 This contains the notebook to find and visualize the confidence intervals in linear models. 
 
-
+## [Confidence Intervals Using Bootstrap](/Confidence_intervals_using_boorstraping)
+Using bootstraping to calculate confidence intervals. 
 
 ## [Scipy.optimize.curve_fit](/Scipy.optimize.curve_fit/Curve_fit_from_scipy_optimize.ipynb)
 This notebook explains the curve_fit, from scipy.optimize, and provides exmaples on how it can be used to fit different functions of the data. 
