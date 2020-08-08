@@ -6,6 +6,9 @@ My encoder is a module that can be used to one hot encode given vairiables of th
 pd.get_dummies method. 
 The notebook attached shows in detail what disadvanates are observed. And also that using my_encoder, we can get the job done is very less lines of code.
 
+## [Regression_Splines](Regression Splines/)
+This contains the implementaion of natural and cubic spline in python. Estimating the confidence intervals for natural and cubic spline and comparing both the graphs. 
+
 ## [Confidence Intervals for Linear models](Confidence_interval_for_simple_models/confidence_interval_simple_models.ipynb)
 This contains the notebook to find and visualize the confidence intervals in linear models. 
 
