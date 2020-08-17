@@ -7,6 +7,7 @@ class Myencoder(BaseEstimator, TransformerMixin):
    
     def __init__(self,drop = 'first',sparse=False):
         self.encoder = OneHotEncoder(drop = drop,sparse = sparse)
+        self.drop = True if drop == 'first' else False
         self.features_to_encode = []
         self.columns = []
     
@@ -15,7 +16,7 @@ class Myencoder(BaseEstimator, TransformerMixin):
         data = X_train.copy()
         self.features_to_encode = features_to_encode
         data_to_encode = data[self.features_to_encode]
-        self.columns = pd.get_dummies(data_to_encode,drop_first = True).columns
+        self.columns = pd.get_dummies(data_to_encode,drop_first = self.drop).columns
         self.encoder.fit(data_to_encode)
         return self.encoder
     
@@ -29,4 +30,3 @@ class Myencoder(BaseEstimator, TransformerMixin):
         data_encoded = pd.DataFrame(self.encoder.transform(data_to_encode),columns = self.columns)
         
         return pd.concat([data_left,data_encoded],axis = 1)
-                
