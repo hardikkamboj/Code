@@ -1,3 +1,4 @@
+from sklearn.metrics import accuracy_score,confusion_matrix,roc_auc_score,roc_curve
 
 def find_roc_terms(cls,X,y):
     probs = cls.predict_proba(X)[:,1]
