@@ -1,6 +1,8 @@
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
+from sklearn.metrics import accuracy_score,roc_auc_score
+
 
 
 def show_performance(model,X_train=X_res,y_train=y_res,X_test=X_test,y_test=y_test,roc=False):
