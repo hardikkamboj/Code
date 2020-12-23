@@ -4,3 +4,5 @@ representing an image converted to a col. n would be the size of that col matrix
 Through SVD, we represent this X, as a prodcut of three other matrices, each having unique properties, these can be furthur written as a sum of m rank 1 matrices. 
 
 Out of these m rank one matrices, we can select some arbitrary r rank matrix, which gives us the best approximation of X. 
+
+Source - https://www.youtube.com/watch?v=H7qMMudo3e8&list=PLMrJAkhIeNNSVjnsviglFoY2nXildDCcv&index=6
