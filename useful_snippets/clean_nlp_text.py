@@ -1,3 +1,13 @@
+# libraries required
+from nltk import word_tokenize
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
+import re
+
+stop_words = stopwords.words('english')
+lemmatizer = WordNetLemmatizer()
+
+
 # clearning corpus, which contains words only. 
 cleaned_lemmatized_tokens = [lemmatizer.lemmatize(word.lower()) for word in word_tokenize(re.sub(r'([^\s\w]|_)+', ' ', text))]
 
