@@ -14,8 +14,11 @@ cleaned_lemmatized_tokens = [lemmatizer.lemmatize(word.lower()) for word in word
 
 
 # clearning sentences from df 
-# stop_words = stopwords.words('english') # 179 elements
-
 df['cleaned_text'] = df['text'].apply(lambda x : ' '.join([lemmatizer.lemmatize(word.lower()) \
     for word in word_tokenize(re.sub(r'([^\s\w]|_)+', ' ', str(x))) if word.lower() not in stop_words]))
+
+# clearning sentences from df and removing alpha numeric words 
+df['cleaned_text'] = df['Text'].apply(lambda x : ' '.join([lemmatizer.lemmatize(word.lower()) \
+    for word in word_tokenize(re.sub(r'([^\s\w]|_)+', ' ', str(x))) if (word.lower() not in stop_words) 
+                                                           and word.isalpha() ]))
 
